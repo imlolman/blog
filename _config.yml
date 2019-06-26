@@ -1,0 +1,38 @@
+# Site settings
+title: imlolman's Blog
+description: "Hi, I am Satyam #imlolman and This is My Blog. I Build Awesome Web Based Projects. I Know Data Handeling, Scraping, Automation & Ready to Learn, Build more, because I Love Tech ❤."
+url: "https://imlolman.github.io/blog/"
+author:
+  name: "Satyam Gupta"
+  email: "satyamforwork@gmail.com"
+  url: "https://imlolman.github.io/"
+
+# Build settings
+baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
