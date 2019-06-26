@@ -4,7 +4,7 @@
  <title>imlolman's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2019-06-26T17:37:22+05:30</updated>
+ <updated>2019-06-26T18:01:59+05:30</updated>
  <author>
    <name>Satyam Gupta</name>
    <uri>https://imlolman.github.io/</uri>
@@ -22,6 +22,16 @@
 
 &lt;p&gt;Further I am going to customise My Blog and I am thinking of writing many articles. Lets Hope Everything works :).&lt;/p&gt;
 </content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Markdown Test</title>
+   <link href="http://localhost:4000/merkdown-test"/>
+   <id>http://localhost:4000/merkdown-test</id>
+   <updated>2019-06-26T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt; &lt;p&gt;This is markdown Test Post, Stay Away.&lt;/p&gt;...</content>
  </entry>
 
  
