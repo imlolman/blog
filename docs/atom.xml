@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>imlolman's Blog</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2019-06-26T17:37:22+05:30</updated>
+ <author>
+   <name>Satyam Gupta</name>
+   <uri>https://imlolman.github.io/</uri>
+   <email>satyamforwork@gmail.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>New Blog</title>
+   <link href="http://localhost:4000/new-blog"/>
+   <id>http://localhost:4000/new-blog</id>
+   <updated>2019-06-26T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;I am thinking of starting new blog hence I choosed Jekyll as a Starting point because Its Free 😉😉.&lt;/p&gt;
+
+&lt;p&gt;Further I am going to customise My Blog and I am thinking of writing many articles. Lets Hope Everything works :).&lt;/p&gt;
+</content>
+ </entry>
+
+ 
+
+</feed>

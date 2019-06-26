@@ -11,7 +11,7 @@ author:
 baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
-destination: ./_site
+destination: ./docs
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
