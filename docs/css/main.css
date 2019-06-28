@@ -696,9 +696,8 @@ footer {
   background-size: 80px;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 400px;
   min-height: 200px;
-  margin: 30px;
+  margin: 30px 0px;
   border: 2px solid #2196f3; }
 #post-page .content div.highlight {
   overflow: scroll;
