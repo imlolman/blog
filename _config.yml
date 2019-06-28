@@ -1,7 +1,7 @@
 # Site settings
 title: imlolman's Blog
 description: "Hi, I am Satyam #imlolman and This is My Blog. I Build Awesome Web Based Projects. I Know Data Handeling, Scraping, Automation & Ready to Learn, Build more, because I Love Tech ❤."
-url: "https://imlolman.github.io/blog/"
+url: https://imlolman.github.io/blog/
 author:
   name: "Satyam Gupta"
   email: "satyamforwork@gmail.com"
