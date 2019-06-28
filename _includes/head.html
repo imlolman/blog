@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="generator" content="Jekyll">
   <meta name="description"
-    content="Hi, I am Satyam #imlolman and This is my Blog. I Build Awesome Web Based Projects. I Know Data Handeling, Scraping, Automation & Ready to Learn, Build more, because I Love Tech ❤.">
+    content="{%if page.is_post %}{{ page.description }}{% else %}{{ site.description }} {% endif %}">
   <meta name="author" content="Satyam Gupta #imlolman">
   <link rel="canonical" href="https://imlolman.github.io/blog/" />
   <link rel="shortcut icon" href="https://imlolman.github.io/img/favicon.ico">
@@ -20,7 +20,7 @@
   <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- CSS & fonts -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+  <link rel=" stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
   <link
     href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600'
     rel='stylesheet' type='text/css'>

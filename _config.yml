@@ -9,7 +9,7 @@ author:
 
 # Build settings
 baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
+markdown: Kramdown
 source: .
 destination: ./docs
 permalink: /:title
@@ -24,6 +24,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      is_post: true
 
 # Plugins
 gems:

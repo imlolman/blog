@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="generator" content="Jekyll">
   <meta name="description"
-    content="Hi, I am Satyam #imlolman and This is my Blog. I Build Awesome Web Based Projects. I Know Data Handeling, Scraping, Automation & Ready to Learn, Build more, because I Love Tech ❤.">
+    content="This is a Sample Post for Markdown Test">
   <meta name="author" content="Satyam Gupta #imlolman">
   <link rel="canonical" href="https://imlolman.github.io/blog/" />
   <link rel="shortcut icon" href="https://imlolman.github.io/img/favicon.ico">
@@ -23,7 +23,7 @@
   <title>Markdown Test</title>
 
   <!-- CSS & fonts -->
-  <link rel="stylesheet" href="/blog/css/main.css">
+  <link rel=" stylesheet" href="/blog/css/main.css">
   <link
     href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600'
     rel='stylesheet' type='text/css'>
@@ -42,6 +42,8 @@
 		<a href="/blog">Home</a>
 
 		<!-- Nav pages -->
+	  
+	    
 	  
 	    
 	  
@@ -91,11 +93,11 @@
 		<main>
 
 			<article id="post-page">
-	<h2>Markdown Test</h2>		
-	<time datetime="2019-06-26T00:00:00+05:30" class="by-line">26 Jun 2019</time>
-	<div class="content">
+  <h2>Markdown Test</h2>
+  <time datetime="2019-06-26T00:00:00+05:30" class="by-line">26 Jun 2019</time>
+  <div class="content">
 
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
 <p>This is markdown Test Post, Stay Away.</p>
 
@@ -153,11 +155,9 @@ print('MarkDown is Working')
 This line is part of the same quote.</p>
 </blockquote>
 
-		
-	</div>
+
+  </div>
 </article>
-
-
 
 	  </main>
 		
@@ -171,6 +171,64 @@ This line is part of the same quote.</p>
 
 	    <!-- Script -->
       <script src="/blog/js/main.js"></script>
+
+
+
+<script src="/blog/js/photoswipe.js"></script>
+<script src="/blog/js/photoswipe-dui.js"></script>
+<link rel="stylesheet" href="/blog/css/photoswipe.css">
+<link rel="stylesheet" href="/blog/css/default-skin/default-skin.css">
+
+<div class=pswp aria-hidden=true role=dialog tabindex=-1>
+  <div class=pswp__bg></div>
+  <div class=pswp__scroll-wrap>
+    <div class=pswp__container>
+      <div class=pswp__item></div>
+      <div class=pswp__item></div>
+      <div class=pswp__item></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class=pswp__top-bar>
+        <div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--share" title=Share></button> <button
+          class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button
+          class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <div class=pswp__preloader>
+          <div class=pswp__preloader__icn>
+            <div class=pswp__preloader__cut>
+              <div class=pswp__preloader__donut></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class=pswp__share-tooltip></div>
+      </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button
+        class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+      <div class=pswp__caption>
+        <div class=pswp__caption__center></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function runPswp(i = 0) {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+    var items = [];
+    document.querySelectorAll('#post-page img').forEach(ele => items.push({
+      src: ele.src,
+      h: ele.naturalHeight,
+      w: ele.naturalWidth
+    }))
+    var options = {
+      index: i
+    };
+    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+  }
+  document.querySelectorAll('#post-page img').forEach((ele, i) => ele.setAttribute('onclick', 'runPswp(' + i + ')'))
+</script>
 
 	</div>
 </body>
