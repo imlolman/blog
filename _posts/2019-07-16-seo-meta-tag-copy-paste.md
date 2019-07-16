@@ -27,4 +27,4 @@ description: Here is a List of Meta tags I commonly use for SEO.
 <meta name="robots" content="index, follow"><!--for google crawling-->
 ```
 
-Now Make Your Website appear in Google :)
+Now Make Your Website Look Awesome :)
