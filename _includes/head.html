@@ -14,8 +14,8 @@
   <meta property="og:type" content="{%if page.is_post %}article{% else %}website{% endif %}" />
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="Hi, I am Satyam #imlolman and This is my Blog. I Build Awesome Web Based Projects. I Know Data
-    Handeling, Scraping, Automation & Ready to Learn, Build more, because I Love Tech ❤." />
+  <meta property="og:description"
+    content="{%if page.is_post %}{{ page.description }}{% else %}{{ site.description }} {% endif %}" />
   <meta property="og:image" content="https://imlolman.github.io/blog/img/blog.png" />
   <meta property="og:url" content="https://imlolman.github.io/blog{{ page.url }}" />
   <meta property="og:site_name" content="imlolman - Satyam Gupta" />
